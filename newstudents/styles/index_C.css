@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width: 100%;
+    min-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    font-family: Microsoft Yahei;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+input,textarea,select,button{
+    outline: none;
+}
+textarea{
+    resize: none;
+}
+.wrap_C,.wrap_Q{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;w
+}
+
+/*校史校情*/
+.wrap_C nav,.wrap_Q nav{
+    width: 100%;
+    height: 34px;
+}
+.wrap_C nav img,.wrap_Q nav img{
+    float: left;
+    margin-top: 8px;
+    margin-left: 49px;
+}
+.wrap_C ul,.wrap_Q ul{
+    float: right;
+    margin-right: 2%;
+    height: 34px;
+    line-height: 34px;
+    width: 580px;
+}
+.wrap_C nav li,.wrap_Q nav li{
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    width: 116px;
+}
+.wrap_C>img{
+    margin: 23px 0 66px 2.45%;
+}
+.wrap_C>div{
+    width: 100%;
+    height: 1010px;
+    background: url(../images/history_bk.png) no-repeat;
+    background-size: 100% 100%;
+}
+.wrap_C .left_C{
+    width: 270px;
+    margin: 13px 0 0 10%;
+    float: left;
+}
+.wrap_C .left_C>div{
+    width: 100%;
+    font-size: 24px;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 12px;
+    background-color: rgba(233,247,254,0.6);
+    box-sizing: border-box;
+}
+.wrap_C .left_C>div:hover{
+    cursor: pointer;
+}
+.wrap_C .left_C>div.hasborder{
+    border-left: 8px solid rgb(169,219,228);
+}
+.wrap_C .right_C{
+    width: 805px;
+    float: right;
+    margin-top: 13px;
+    margin-right: 6.9%;
+    font-size: 14px;
+}
+.wrap_C .p1_C{
+    border-left: 4px solid rgb(169,219,228);
+    font-size: 18px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+.wrap_C .p2_C{
+    text-align: justify; 
+    text-justify: inter-ideograph; 
+    text-indent: 2em;
+}
+.wrap_C .p3_C{
+    text-align: justify; 
+    text-justify: inter-ideograph; 
+    text-indent: 2em;
+    padding: 0 146px;
+    margin-bottom: 68px;
+}
+.p3_C+p{
+    text-align: center;
+    margin-bottom: 28px;
+}
+.p3_C+p+p{
+    padding-left: 340px;
+}
+.p4_C{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.p4_C+p{
+    text-align: justify; 
+    text-justify: inter-ideograph; 
+    text-indent: 2em;
+    margin-bottom: 32px;
+}
+.wrap_C .p1_C+img{
+    margin-top: 44px;
+    margin-left: 4px;
+    float: left;
+}
+.p5_C{
+    width: 495px;
+    float: right;
+    text-align: justify; 
+    text-justify: inter-ideograph; 
+    text-indent: 2em;
+}
+.wrap_C .right_C{
+    display: none;
+}
+.right_C.active{
+    display: block;
+}
+
+/*校区攻略*/
+.wrap_Q>div{
+    width: 100%;
+    position: relative;
+}
+.wrap_Q>div>img:first-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 963px;
+    z-index: -1;
+}
+.wrap_Q>div>img:nth-child(2){
+    display: block;
+    margin: 0 auto;
+}
+.wrap_Q>div>div{
+    width: 852px;
+    height: 580px;
+    margin: 10px auto;
+}
+.wrap_Q>div>div>div{
+    width: 282px;
+    height: 328px;
+    float: left;
+    background: url(../images/campus_img.png) no-repeat;
+    background-size: 98% 100%;
+}
+.wrap_Q>div>div>div:nth-child(4){
+    margin-left: 141px;
+}
+.wrap_Q>div>div>div:nth-child(4),.wrap_Q>div>div>div:nth-child(5){
+    margin-top: -75px;
+}
+.wrap_Q>div>div>div>a{
+    display: block;
+    width: 100%;
+    height: 162px;
+    margin-top: 83px;
+}
+.wrap_Q>div>div>div:nth-child(1):hover{
+    background: url(../images/campus_zhongxin_C.png) no-repeat;
+    background-size: 98% 100%;
+}
+.wrap_Q>div>div>div:nth-child(2):hover{
+    background: url(../images/campus_hongjialou_C.png) no-repeat;
+    background-size: 98% 100%;
+}
+.wrap_Q>div>div>div:nth-child(3):hover{
+    background: url(../images/campus_xinglongshan_C.png) no-repeat;
+    background-size: 98% 100%;
+}
+.wrap_Q>div>div>div:nth-child(4):hover{
+    background: url(../images/campus_baotuquan_C.png) no-repeat;
+    background-size: 98% 100%;
+}
+.wrap_Q>div>div>div:nth-child(5):hover{
+    background: url(../images/campus_ruanjianyuan_C.png) no-repeat;
+    background-size: 98% 100%;
+}

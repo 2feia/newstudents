@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>入学百问</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+        <div class="nav">
+            <img src="img/logo1.png">
+            <a href="history.html">校史校情</a>
+            <a href="thing.html">学年事记</a>
+            <a href="campus.html">校区攻略</a>
+            <a href="javascript:void(0)">入学百问</a>
+            <a href="firstpage.html">首页</a>
+        </div>
+    <div id="view">
+        <div class="body">
+            <div class="main" v-if="module == 'main'">
+                <img class="logo" src="img/logo.png">
+                <div class="search">
+                    <img class="search_bt" src="img/search.png">
+                </div>
+                <div class="ques">
+                    <p v-for='ques in queslist' @click="Addques" :data-id="ques.id">{{ ques.question }}</p>
+
+                </div>
+            </div>
+            <div class="answer" v-if="module == 'answer'">
+                <img class="back" @click="back" src="img/back.png">
+                <img class="logos" src="img/logos.png">
+                <div class="search_ans">
+                    <p>{{chosed.question}}</p>
+                    <img class="dt_ans" src="img/search.png">
+                </div>
+                <div>
+                    <img class="q" src="img/q.png">
+                    <div class="q_cont">
+                        <p>{{chosed.question}}</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="a" src="img/a.png">
+                    <div id="answer" class="a_cont">
+                    </div>
+                </div>
+            </div>
+            <img class="bg" src="img/bg.jpg">
+        </div>
+    </div>
+    <script src="js/vue.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

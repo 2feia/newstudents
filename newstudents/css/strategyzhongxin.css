@@ -1,0 +1,458 @@
+body{
+	width: 100%;
+	height: 2632px;
+	min-width: 1300px;
+	max-width: 1440px;
+	margin: 0;
+}
+.nav{
+	width: 98%;
+	height: 34px;
+	line-height: 34px;
+    padding-right: 2%;
+}
+.nav img{
+	float: left;
+	margin-left: 49px;
+	margin-top: 8px;
+}
+.nav a{
+	float: right;
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	width: 116px;
+}
+.zhongxin{
+	width: 100%;
+	height: 84px;
+	background: url(../img/strategyzhongxin1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container{
+	width: 100%;
+	height: 2514px;
+	background: url(../img/strategyback.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center1{
+	float: left;
+	width: 50%;
+	height: 504px;
+	background: url(../img/strategyzhongxin3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center1 .arrow{
+	cursor: pointer;
+	width: 3.9%;
+	height: 18px;
+	float: left;
+	margin-top: 17px;
+	margin-left: 5.8%;
+	background: url(../img/arrow.png) no-repeat;
+}
+.container .center2{
+	float: right;
+	width: 50%;
+	height: 504px;
+	background: url(../img/strategyzhongxin4.png) center no-repeat;
+}
+.container .center3{
+	height: 569px;
+	float: left;
+	width: 50%;
+}
+.container .center3 div{
+	height: 198px;
+	width: 85%;
+	float: right;
+	margin-right: 2.7%;
+	background: url(../img/strategyzhongxin5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center3 .top{
+	margin-top: 6px;
+	margin-bottom: 33px;
+}
+.container .center4{
+	float: left;
+	width: 50%;
+	height: 569px;
+	background: url(../img/strategyzhongxin6.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center5{
+	float: left;
+	width: 50%;
+	height: 681px;
+	background: url(../img/strategyzhongxin7.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center6{
+	float: left;
+	width: 50%;
+	height: 681px;
+}
+.container .center6 .border{
+	width: 74.2%;
+	height: 376px;
+	float: left;
+	margin-left: 15%;
+	border: 12px solid #449397;
+}
+.container .center6 .photo{
+	float: left;
+	background: url(../img/strategyzhongxin2.png) no-repeat;
+	background-size: 100% 100%;
+	width: 77.2%;
+	height: 408px;
+	margin-left: 10.4%;
+	margin-top: -374px;
+}
+.container .center7{
+	width: 50%;
+	height: 694px;
+	float: left;
+}
+.container .center7 .small{
+	width: 59.7%;
+	height: 234px;
+	float: right;
+	margin-right: 31.5%;
+	background: url(../img/strategyzhongxin8.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.container .center7 .big{
+	width: 66.38%;
+	height: 282px;
+	float: right;
+	margin-right: -1.6%;
+	margin-top: 37px;
+	background: url(../img/strategyzhongxin9.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center8{
+	width: 50%;
+	height: 694px;
+	float: left;
+	background: url(../img/strategyzhongxin10.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*兴隆山的部分*/
+.xinglong{
+	width: 100%;
+	height: 84px;
+	background: url(../img/strategyxinglong1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.containerxl{
+	background: url(../img/strategyxinglong6.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center1xl{
+	background: url(../img/strategyxinglong2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center3 .small{
+	width: 59.7%;
+	height: 234px;
+	float: right;
+	margin-right: 31.5%;
+	background: url(../img/strategyzhongxin8.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center3 .big{
+	width: 66.38%;
+	height: 282px;
+	float: right;
+	margin-right: -1.6%;
+	margin-top: 37px;
+	background: url(../img/strategyzhongxin9.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center4xl{
+	background: url(../img/strategyxinglong3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center5xl{
+	background: url(../img/strategyxinglong4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center6xl .border{
+	margin-top: 90px;
+}
+.container .center7 div{
+	height: 198px;
+	width: 85%;
+	float: right;
+	margin-right: 2.7%;
+	background: url(../img/strategyzhongxin5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center7 .top{
+	margin-top: 6px;
+	margin-bottom: 33px;
+}
+.container .center8xl{
+	background: url(../img/strategyxinglong5.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: -90px;
+}
+/*趵突泉的代码*/
+.spouting{
+	width: 100%;
+	height: 84px;
+	background: url(../img/strategybaotu1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center1spouting{
+	background: url(../img/strategyspouting2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center3spouting{
+	background: url(../img/strategyspouting3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center4spouting{
+	float: left;
+	width: 50%;
+	height: 569px;
+}
+.container .center4spouting .small{
+	width: 59.7%;
+	height: 234px;
+	float: left;
+	margin-left: 2.9%;
+	background: url(../img/strategyzhongxin8.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center4spouting .big{
+	width: 66.38%;
+	height: 282px;
+	float: left;
+	margin-left: 29.7%;
+	margin-top: 37px;
+	background: url(../img/strategyzhongxin9.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center5spouting{
+	float: left;
+	width: 50%;
+	height: 681px;
+}
+.container .center5spouting div{
+	height: 198px;
+	width: 85%;
+	float: right;
+	margin-right: 2.7%;
+	background: url(../img/strategyzhongxin5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center5spouting .top{
+	margin-top: 123px;
+	margin-bottom: 33px;
+}
+.container .center6spouting{
+	background: url(../img/strategyspouting5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center7 .border{
+	width: 74.2%;
+	height: 376px;
+	float: right;
+	margin-top: 80px;
+	margin-right: 4.7%;
+	border: 12px solid #449397;
+	background: none;
+}
+.container .center7 .photo{
+	float: right;
+	background: url(../img/strategyzhongxin2.png) no-repeat;
+	background-size: 100% 100%;
+	width: 77.2%;
+	height: 408px;
+	margin-right: 9%;
+	margin-top: -374px;
+}
+.container .center8spouting{
+	width: 50%;
+	height: 694px;
+	float: left;
+	background: url(../img/strategyspouting6.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*软件园的部分的代码*/
+.software{
+	width: 100%;
+	height: 84px;
+	background: url(../img/strategysoft2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.containersoft{
+	background: url(../img/strategysoft1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center1soft{
+	background: url(../img/strategysoft6.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center3soft{
+	margin-top: -20px;
+	background: url(../img/strategysoft3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center4soft{
+	float: left;
+	width: 50%;
+	height: 569px;
+	margin-top: -20px;
+}
+.container .center4soft .border{
+	width: 74.2%;
+	height: 376px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 15%;
+	border: 12px solid #449397;
+}
+.container .center4soft .photo{
+	float: left;
+	background: url(../img/strategyzhongxin2.png) no-repeat;
+	background-size: 100% 100%;
+	width: 77.2%;
+	height: 408px;
+	margin-left: 10.4%;
+	margin-top: -374px;
+}
+.container .center5soft{
+	background: none;
+}
+.container .center5soft .small{
+	width: 59.7%;
+	height: 234px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 2.9%;
+	background: url(../img/strategyzhongxin8.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center5soft .big{
+	width: 66.38%;
+	height: 282px;
+	float: left;
+	margin-left: 29.7%;
+	margin-top: 37px;
+	background: url(../img/strategyzhongxin9.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center6soft{
+	background: url(../img/strategysoft4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center7soft{
+	background: url(../img/strategysoft5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center8soft{
+	background: none;
+}
+.container .center8soft div{
+	height: 198px;
+	width: 85%;
+	float: right;
+	margin-right: 2.7%;
+	background: url(../img/strategyzhongxin5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center8soft .top{
+	margin-top: 123px;
+	margin-bottom: 33px;
+}
+/*洪家楼的有关代码*/
+.honglou{
+	width: 100%;
+	height: 84px;
+	background: url(../img/strategyhonglou1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.containerhl{
+	background: url(../img/strategyhonglou2.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center1hl{
+	background: url(../img/strategyhonglou3.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center3hl{
+	background: url(../img/strategyhonglou4.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center4hl{
+	background: none;
+}
+.container .center4hl div{
+	height: 198px;
+	width: 85%;
+	float: right;
+	margin-right: 2.7%;
+	background: url(../img/strategyzhongxin5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center4hl .top{
+	margin-top: 23px;
+	margin-bottom: 33px;
+}
+.container .center5hl{
+	background: none;
+}
+.container .center5hl .border{
+	width: 74.2%;
+	height: 376px;
+	float: right;
+	margin-top: 80px;
+	margin-right: 4.7%;
+	border: 12px solid #449397;
+	background: none;
+}
+.container .center5hl .photo{
+	float: right;
+	background: url(../img/strategyzhongxin2.png) no-repeat;
+	background-size: 100% 100%;
+	width: 77.2%;
+	height: 408px;
+	margin-right: 9%;
+	margin-top: -374px;
+}
+.container .center6hl{
+	background: url(../img/strategyhonglou5.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center7hl{
+	margin-top: -200px;
+	background: url(../img/strategyhonglou6.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center8hl{
+	background: none;
+	margin-top: -80px;
+}
+.container .center8hl .small{
+	width: 59.7%;
+	height: 234px;
+	float: left;
+	margin-top: 80px;
+	margin-left: 2.9%;
+	background: url(../img/strategyzhongxin8.png) no-repeat;
+	background-size: 100% 100%;
+}
+.container .center8hl .big{
+	width: 66.38%;
+	height: 282px;
+	float: left;
+	margin-left: 29.7%;
+	margin-top: 37px;
+	background: url(../img/strategyzhongxin9.png) no-repeat;
+	background-size: 100% 100%;
+}
